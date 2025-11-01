@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>Document</title>
+</head>
+<style>
+  /* .center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13rem;
+} */
+  * {
+    box-sizing: border-box;
+  }
+
+  .box {
+    float: left;
+    /* width: 8.33%; */
+    padding: 50px;
+    border: 1px solid black;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  table,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 25px;
+  }
+
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .yellow {
+    background-color: yellow;
+  }  
+</style>
+
+<body>
+  <button id="startButton" style="
+    margin-top: 10px;">Start Countdown</button>
+  <button id="cancelButton">Cancel Game</button>
+  <p>Time left: <span id="countdownSpan">20</span></p>
+  <p>Current Score: <span id="score">0</span></p>
+  <p>High Score: <span id="highScore">0</span></p>
+  <table class="center" id="myTable">
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td> 
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+
+  </table>
+
+
+  <div class="alphabetOccurrences"></div>
+
+
+  <script src="index.js" defer></script>
+
+</body>
+
+</html>
+
